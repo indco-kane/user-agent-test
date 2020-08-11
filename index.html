@@ -8,7 +8,7 @@
 <body>
     <p id="user-agent-string"></p>
     <script>
-        document.getElementById('user-agent-string').textContent = navigator.userAgent;
+        document.getElementById('user-agent-string').textContent = navigator.userAgent +'\n\n' + navigator.vendor;
     </script>
 </body>
 </html>
